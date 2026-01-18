@@ -14,7 +14,11 @@ static class Program
     {
         var parser = new BabelParserV7();
         var code = """
-            var a = 11 + 22;
+            function add2(a:number, b:number)
+            {
+                return a + b;
+            }
+            var a = add2(11, 22);
             """;
         var astJson = parser.Parse(code, includeLocation: false);
         //var astJson = parser.Parse(code, includeLocation: true);

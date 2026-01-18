@@ -17,7 +17,7 @@ public class BabelParserV7
         engine.Execute(text);
         EasyObject result = engine.EvaluateAsEasyObject(
             """
-                var ast = parse($1);
+                var ast = parse($1, { plugins: ["typescript"] });
                 // Option to turn off start/end/loc on AST @babel/parser produced
                 // https://github.com/babel/babel/issues/11239
                 const removeASTLocation = ast => {

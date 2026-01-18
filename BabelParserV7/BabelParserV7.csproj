@@ -2,7 +2,7 @@
 	<PropertyGroup>
 		<LangVersion>latest</LangVersion>
 		<TargetFrameworks>netstandard2.0;net462;net8.0</TargetFrameworks>
-		<Version>2026.0118.1838.10</Version>
+		<Version>2026.0118.1845.54</Version>
 		<Nullable>disable</Nullable>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<RootNamespace>BabelParserV7</RootNamespace>
@@ -18,7 +18,7 @@
 		<PackageId>BabelParserV7</PackageId>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/nuget-pkg/BabelParserV7</PackageProjectUrl>
-		<PackageTags>babel;javascript;parser</PackageTags>
+		<PackageTags>babel;babel-parser-v7;javascript;typescript;parser</PackageTags>
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 		<PackageReadmeFile>.\README.md</PackageReadmeFile>
 	</PropertyGroup>
