@@ -1,7 +1,7 @@
-﻿using System;
+﻿//using System;
 using Global;
 using static Global.EasyObject;
-using NUnit.Framework;
+//using NUnit.Framework;
 
 // ReSharper disable once CheckNamespace
 namespace Demo;
@@ -12,6 +12,12 @@ static class Program
     // ReSharper disable once ArrangeTypeMemberModifiers
     static void Main()
     {
-        Echo(BabelParserV7.Add2(11, 22));
+        var parser = new BabelParserV7();
+        var code = """
+            var a = 11 + 22;
+            """;
+        var astJson = parser.Parse(code, includeLocation: false);
+        //var astJson = parser.Parse(code, includeLocation: true);
+        Echo(astJson, "astJson");
    }
 }

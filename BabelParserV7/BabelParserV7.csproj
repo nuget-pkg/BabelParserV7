@@ -2,7 +2,7 @@
 	<PropertyGroup>
 		<LangVersion>latest</LangVersion>
 		<TargetFrameworks>netstandard2.0;net462;net8.0</TargetFrameworks>
-		<Version>0.0.0.0</Version>
+		<Version>2026.0118.1545.35</Version>
 		<Nullable>disable</Nullable>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<RootNamespace>BabelParserV7</RootNamespace>
@@ -48,12 +48,15 @@
 	<ItemGroup>
 		<None Include=".\README.md" Pack="true" PackagePath="" />
 	</ItemGroup>
-	<ItemGroup>
-		<!--<PackageReference Include="JsoncParser" Version="2026.111.921.55" />-->
-		<!--<PackageReference Include="WinConsole" Version="2024.603.1317.52" />-->
-	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
 		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
 		<PackageReference Include="System.Dynamic.Runtime" Version="4.3.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include=".\https_cdn.jsdelivr.net_npm_@babel_parser@7.28.5_lib_index.js" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="EasyScript" Version="2026.118.1322.17" />
+	  <PackageReference Include="Global.Sys" Version="2026.118.1318.50" />
 	</ItemGroup>
 </Project>
