@@ -36,7 +36,7 @@
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
-		<PackageReference Include="EasyObject" Version="2026.118.1305.30" />
+		<PackageReference Include="EasyObject" Version="2026.118.1940.19" />
 		<PackageReference Include="NUnit" Version="4.4.0" />
 		<PackageReference Include="NUnit3TestAdapter" Version="6.1.0" />
 		<PackageReference Include="NUnit.Analyzers" Version="4.11.2">

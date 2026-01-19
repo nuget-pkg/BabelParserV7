@@ -2,7 +2,7 @@
 	<PropertyGroup>
 		<LangVersion>latest</LangVersion>
 		<TargetFrameworks>netstandard2.0;net462;net8.0</TargetFrameworks>
-		<Version>2026.0118.1845.54</Version>
+		<Version>2026.0119.1825.46</Version>
 		<Nullable>disable</Nullable>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<RootNamespace>BabelParserV7</RootNamespace>
@@ -56,7 +56,6 @@
 		<EmbeddedResource Include=".\https_cdn.jsdelivr.net_npm_@babel_parser@7.28.5_lib_index.js" />
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="EasyScript" Version="2026.118.1825.31" />
-	  <PackageReference Include="Global.Sys" Version="2026.118.1827.45" />
+	  <PackageReference Include="EasyScript" Version="2026.119.1810.47" />
 	</ItemGroup>
 </Project>
