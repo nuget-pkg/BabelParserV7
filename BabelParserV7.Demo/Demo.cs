@@ -18,7 +18,9 @@ static class Program
             {
                 return a + b;
             }
-            var a = add2(11, 22);
+            var x = add2(11, 22);
+            console.log(x);
+            return x;
             """;
         var astJson = parser.Parse(code, includeLocation: false);
         //var astJson = parser.Parse(code, includeLocation: true);
