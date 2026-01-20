@@ -1,6 +1,6 @@
 ﻿//using System;
 using Global;
-using static Global.EasyObject;
+using static Global.EasyObjectClassic;
 //using NUnit.Framework;
 
 // ReSharper disable once CheckNamespace
