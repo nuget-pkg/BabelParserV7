@@ -9,7 +9,7 @@ public class BabelParserV7
     {
         var assembly = typeof(BabelParserV7).Assembly;
         //Log(assembly.GetManifestResourceNames());
-        var text = Sys.ResourceAsText(assembly, "BabelParserV7:https_cdn.jsdelivr.net_npm_@babel_parser@7.28.5_lib_index.js");
+        var text = Sys.ResourceAsText(assembly, "BabelParserV7:https_cdn.jsdelivr.net_npm_@babel-parser@7.28.5_lib_index.js");
         //Echo(text, "text");
         var engine = new EasyScript();
         engine.Execute(text);
