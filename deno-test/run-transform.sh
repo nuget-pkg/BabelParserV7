@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 cwd=`pwd`
 ts=`date "+%Y.%m%d.%H%M.%S"`
 
-cp https-cdn.jsdelivr.net-npm-@babel-standalone@7.28.6-babel.js babel-standalone.mjs
+cp https_cdn.jsdelivr.net_npm_@babel-standalone@7.28.6-babel.js babel-standalone.mjs
 echo "const Babel = globalThis.Babel;" >> babel-standalone.mjs
 echo "export { Babel };" >> babel-standalone.mjs
 ./transform.mjs
