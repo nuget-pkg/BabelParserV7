@@ -10,8 +10,9 @@ namespace Demo;
 static class Program
 {
     // ReSharper disable once ArrangeTypeMemberModifiers
-    static void Main()
+    static void Main(string[] args)
     {
+        Echo(new { args = args });
         var parser = new BabelParserV7();
         var code = """
             function add2(a:number, b:number)
